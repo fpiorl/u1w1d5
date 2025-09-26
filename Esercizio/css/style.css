@@ -5,7 +5,6 @@ body {
 
 }
 
-
 .mobile-view{ 
     width: 100%;
     align-items: center;
@@ -135,13 +134,15 @@ footer h1 {
     font-weight: bold;
 }
 footer hr {
-    width: 60%;
+    width: 70%;
+    border: 2px solid white;
 }
 footer ul{
     margin-left: 20%;
     /* https://stackoverflow.com/questions/36350948/removing-black-dots-from-li-and-ul */
     text-align: center;
     list-style-type: none;
+    padding-bottom: 2em
 
 }
 footer li {
@@ -153,6 +154,7 @@ footer p {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
-footer a {
+footer .item {
+    margin-left: 1em;
     color: white;
 }
